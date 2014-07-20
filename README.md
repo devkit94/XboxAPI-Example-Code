@@ -1,4 +1,5 @@
-#XboxAPI Gamertag Collection Script
+XboxAPI Gamertag Collection Script
+---
 
 This script will fetch a specified gamers friends and their XUID's.
 
