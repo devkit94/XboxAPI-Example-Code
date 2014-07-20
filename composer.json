@@ -1,0 +1,19 @@
+{
+    "name": "",
+    "description": "",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-pdo_sqlite": "*",
+        "guzzlehttp/guzzle": "4.*",
+        "illuminate/database": "4.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan Wynn",
+            "email": "hello@alanwynn.me",
+            "homepage": "http://alanwynn.me"
+        }
+    ],
+    "minimum-stability": "dev"
+}
