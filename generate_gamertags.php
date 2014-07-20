@@ -6,6 +6,8 @@ function generate_gamertags() {
 
     print "Fetching friends for {$gamertag}\n";
 
+    file_put_contents(GAMERTAGS_CSV, $gamertag . PHP_EOL, FILE_APPEND);
+
     $guzzle = new GuzzleHttp\Client();
     $response = $guzzle->get($url);
     $friends = $response->json();
